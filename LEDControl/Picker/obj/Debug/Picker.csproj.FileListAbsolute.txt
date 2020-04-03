@@ -1,0 +1,7 @@
+E:\LEDControl\LEDControl\Picker\bin\Debug\Picker.dll
+E:\LEDControl\LEDControl\Picker\bin\Debug\Picker.pdb
+E:\LEDControl\LEDControl\Picker\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\LEDControl\LEDControl\Picker\obj\Debug\Picker.csprojAssemblyReference.cache
+E:\LEDControl\LEDControl\Picker\obj\Debug\Picker.csproj.CoreCompileInputs.cache
+E:\LEDControl\LEDControl\Picker\obj\Debug\Picker.dll
+E:\LEDControl\LEDControl\Picker\obj\Debug\Picker.pdb

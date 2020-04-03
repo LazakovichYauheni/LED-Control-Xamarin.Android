@@ -1,0 +1,1 @@
+<ImageView android:layout_width="10dp" android:layout_height="10dp" style="@style/ImageLayoutStyle" android:id="@+id/imgViewSmall" xmlns:android="http://schemas.android.com/apk/res/android"></ImageView>

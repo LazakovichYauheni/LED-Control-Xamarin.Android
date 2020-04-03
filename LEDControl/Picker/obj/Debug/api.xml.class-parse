@@ -1,0 +1,3813 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.flask.colorpicker"
+    jni-name="com/flask/colorpicker">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="BuildConfig"
+      jni-signature="Lcom/flask/colorpicker/BuildConfig;"
+      source-file-name="BuildConfig.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="BuildConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="deprecated"
+        final="true"
+        name="APPLICATION_ID"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;com.flask.colorpicker&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="BUILD_TYPE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;release&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEBUG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        value="false"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="FLAVOR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="LIBRARY_PACKAGE_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;com.flask.colorpicker&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_CODE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="17"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;0.0.15&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorCircle"
+      jni-signature="Lcom/flask/colorpicker/ColorCircle;"
+      source-file-name="ColorCircle.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorCircle"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(FF[F)V">
+        <parameter
+          name="x"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="y"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="hsv"
+          type="float[]"
+          jni-type="[F" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getColor"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getHsv"
+        native="false"
+        return="float[]"
+        jni-return="[F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getHsvWithLightness"
+        native="false"
+        return="float[]"
+        jni-return="[F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)[F">
+        <parameter
+          name="lightness"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getX"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getY"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()F" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="set"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(FF[F)V">
+        <parameter
+          name="x"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="y"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="hsv"
+          type="float[]"
+          jni-type="[F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="sqDist"
+        native="false"
+        return="double"
+        jni-return="D"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(FF)D">
+        <parameter
+          name="x"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="y"
+          type="float"
+          jni-type="F" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/graphics/drawable/ColorDrawable;"
+      extends="android.graphics.drawable.ColorDrawable"
+      extends-generic-aware="android.graphics.drawable.ColorDrawable"
+      final="false"
+      name="ColorCircleDrawable"
+      jni-signature="Lcom/flask/colorpicker/ColorCircleDrawable;"
+      source-file-name="ColorCircleDrawable.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorCircleDrawable"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="draw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;)V">
+        <parameter
+          name="canvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/preference/Preference;"
+      extends="android.preference.Preference"
+      extends-generic-aware="android.preference.Preference"
+      final="false"
+      name="ColorPickerPreference"
+      jni-signature="Lcom/flask/colorpicker/ColorPickerPreference;"
+      source-file-name="ColorPickerPreference.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorPickerPreference"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorPickerPreference"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorPickerPreference"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="defStyleAttr"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="darken"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IF)I">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="factor"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onBindView"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/View;)V">
+        <parameter
+          name="view"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSetInitialValue"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZLjava/lang/Object;)V">
+        <parameter
+          name="restoreValue"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="defaultValue"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setValue"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="value"
+          type="int"
+          jni-type="I" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="alphaSlider"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="border"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="colorIndicator"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="android.widget.ImageView"
+        type-generic-aware="android.widget.ImageView"
+        jni-signature="Landroid/widget/ImageView;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="density"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="lightSlider"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="selectedColor"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="wheelType"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+        type-generic-aware="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+        jni-signature="Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;"
+        visibility="protected"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/flask/colorpicker/ColorPickerPreference;"
+      enclosing-method-name="onClick"
+      enclosing-method-signature="()V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorPickerPreference.1"
+      jni-signature="Lcom/flask/colorpicker/ColorPickerPreference$1;"
+      source-file-name="ColorPickerPreference.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.flask.colorpicker.builder.ColorPickerClickListener"
+        name-generic-aware="com.flask.colorpicker.builder.ColorPickerClickListener"
+        jni-type="Lcom/flask/colorpicker/builder/ColorPickerClickListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/DialogInterface;I[Ljava/lang/Integer;)V">
+        <parameter
+          name="dialog"
+          type="android.content.DialogInterface"
+          jni-type="Landroid/content/DialogInterface;" />
+        <parameter
+          name="selectedColorFromPicker"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="allColors"
+          type="java.lang.Integer[]"
+          jni-type="[Ljava/lang/Integer;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/view/View;"
+      extends="android.view.View"
+      extends-generic-aware="android.view.View"
+      final="false"
+      name="ColorPickerView"
+      jni-signature="Lcom/flask/colorpicker/ColorPickerView;"
+      source-file-name="ColorPickerView.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorPickerView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorPickerView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorPickerView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="defStyleAttr"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorPickerView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;II)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="defStyleAttr"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="defStyleRes"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addOnColorChangedListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/OnColorChangedListener;)V">
+        <parameter
+          name="listener"
+          type="com.flask.colorpicker.OnColorChangedListener"
+          jni-type="Lcom/flask/colorpicker/OnColorChangedListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addOnColorSelectedListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/OnColorSelectedListener;)V">
+        <parameter
+          name="listener"
+          type="com.flask.colorpicker.OnColorSelectedListener"
+          jni-type="Lcom/flask/colorpicker/OnColorSelectedListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="callOnColorChangedListeners"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)V">
+        <parameter
+          name="oldColor"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="newColor"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAllColors"
+        native="false"
+        return="java.lang.Integer[]"
+        jni-return="[Ljava/lang/Integer;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Ljava/lang/Integer;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSelectedColor"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDraw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;)V">
+        <parameter
+          name="canvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onLayout"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZIIII)V">
+        <parameter
+          name="changed"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="left"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="top"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="right"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="bottom"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onMeasure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)V">
+        <parameter
+          name="widthMeasureSpec"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="heightMeasureSpec"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSizeChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IIII)V">
+        <parameter
+          name="w"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="h"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="oldw"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="oldh"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTouchEvent"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/MotionEvent;)Z">
+        <parameter
+          name="event"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onWindowFocusChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="hasWindowFocus"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAlphaSlider"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/slider/AlphaSlider;)V">
+        <parameter
+          name="alphaSlider"
+          type="com.flask.colorpicker.slider.AlphaSlider"
+          jni-type="Lcom/flask/colorpicker/slider/AlphaSlider;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAlphaValue"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="alpha"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IZ)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="updateText"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorEdit"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/widget/EditText;)V">
+        <parameter
+          name="colorEdit"
+          type="android.widget.EditText"
+          jni-type="Landroid/widget/EditText;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorEditTextColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="argb"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorPreview"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/widget/LinearLayout;Ljava/lang/Integer;)V">
+        <parameter
+          name="colorPreview"
+          type="android.widget.LinearLayout"
+          jni-type="Landroid/widget/LinearLayout;" />
+        <parameter
+          name="selectedColor"
+          type="java.lang.Integer"
+          jni-type="Ljava/lang/Integer;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDensity"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="density"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setInitialColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IZ)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="updateText"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setInitialColors"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="([Ljava/lang/Integer;I)V">
+        <parameter
+          name="colors"
+          type="java.lang.Integer[]"
+          jni-type="[Ljava/lang/Integer;" />
+        <parameter
+          name="selectedColor"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLightness"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="lightness"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLightnessSlider"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/slider/LightnessSlider;)V">
+        <parameter
+          name="lightnessSlider"
+          type="com.flask.colorpicker.slider.LightnessSlider"
+          jni-type="Lcom/flask/colorpicker/slider/LightnessSlider;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setRenderer"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/renderer/ColorWheelRenderer;)V">
+        <parameter
+          name="renderer"
+          type="com.flask.colorpicker.renderer.ColorWheelRenderer"
+          jni-type="Lcom/flask/colorpicker/renderer/ColorWheelRenderer;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSelectedColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="previewNumber"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setShowBorder"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="showBorder"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/flask/colorpicker/ColorPickerView;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorPickerView.1"
+      jni-signature="Lcom/flask/colorpicker/ColorPickerView$1;"
+      source-file-name="ColorPickerView.java"
+      static="false"
+      visibility="">
+      <implements
+        name="android.text.TextWatcher"
+        name-generic-aware="android.text.TextWatcher"
+        jni-type="Landroid/text/TextWatcher;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="afterTextChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/text/Editable;)V">
+        <parameter
+          name="s"
+          type="android.text.Editable"
+          jni-type="Landroid/text/Editable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="beforeTextChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/CharSequence;III)V">
+        <parameter
+          name="s"
+          type="java.lang.CharSequence"
+          jni-type="Ljava/lang/CharSequence;" />
+        <parameter
+          name="start"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="count"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="after"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTextChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/CharSequence;III)V">
+        <parameter
+          name="s"
+          type="java.lang.CharSequence"
+          jni-type="Ljava/lang/CharSequence;" />
+        <parameter
+          name="start"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="before"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="count"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/flask/colorpicker/ColorPickerView;"
+      enclosing-method-name="setColorPreview"
+      enclosing-method-signature="(Landroid/widget/LinearLayout;Ljava/lang/Integer;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorPickerView.2"
+      jni-signature="Lcom/flask/colorpicker/ColorPickerView$2;"
+      source-file-name="ColorPickerView.java"
+      static="false"
+      visibility="">
+      <implements
+        name="android.view.View.OnClickListener"
+        name-generic-aware="android.view.View.OnClickListener"
+        jni-type="Landroid/view/View$OnClickListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/View;)V">
+        <parameter
+          name="v"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;com.flask.colorpicker.ColorPickerView.WHEEL_TYPE&gt;"
+      final="true"
+      name="ColorPickerView.WHEEL_TYPE"
+      jni-signature="Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;"
+      source-file-name="ColorPickerView.java"
+      static="true"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="indexOf"
+        native="false"
+        return="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+        jni-return="Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;">
+        <parameter
+          name="index"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+        jni-return="Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;">
+        <parameter
+          name="name"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE[]"
+        jni-return="[Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="CIRCLE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+        type-generic-aware="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+        jni-signature="Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="FLOWER"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+        type-generic-aware="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+        jni-signature="Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="OnColorChangedListener"
+      jni-signature="Lcom/flask/colorpicker/OnColorChangedListener;"
+      source-file-name="OnColorChangedListener.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onColorChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="OnColorSelectedListener"
+      jni-signature="Lcom/flask/colorpicker/OnColorSelectedListener;"
+      source-file-name="OnColorSelectedListener.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onColorSelected"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="p0"
+          type="int"
+          jni-type="I" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Utils"
+      jni-signature="Lcom/flask/colorpicker/Utils;"
+      source-file-name="Utils.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Utils"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="adjustAlpha"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(FI)I">
+        <parameter
+          name="alpha"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="alphaValueAsInt"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)I">
+        <parameter
+          name="alpha"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="colorAtLightness"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IF)I">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="lightness"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAlphaPercent"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)F">
+        <parameter
+          name="argb"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getHexString"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IZ)Ljava/lang/String;">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="showAlpha"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="lightnessOfColor"
+        native="false"
+        return="float"
+        jni-return="F"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)F">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.flask.colorpicker.builder"
+    jni-name="com/flask/colorpicker/builder">
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ColorPickerClickListener"
+      jni-signature="Lcom/flask/colorpicker/builder/ColorPickerClickListener;"
+      source-file-name="ColorPickerClickListener.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/DialogInterface;I[Ljava/lang/Integer;)V">
+        <parameter
+          name="p0"
+          type="android.content.DialogInterface"
+          jni-type="Landroid/content/DialogInterface;" />
+        <parameter
+          name="p1"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="p2"
+          type="java.lang.Integer[]"
+          jni-type="[Ljava/lang/Integer;" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorPickerDialogBuilder"
+      jni-signature="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+      source-file-name="ColorPickerDialogBuilder.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="alphaSliderOnly"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="build"
+        native="false"
+        return="androidx.appcompat.app.AlertDialog"
+        jni-return="Landroidx/appcompat/app/AlertDialog;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Landroidx/appcompat/app/AlertDialog;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="density"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="density"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialColor"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="initialColor"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialColors"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="([I)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="initialColor"
+          type="int[]"
+          jni-type="[I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="lightnessSliderOnly"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="noSliders"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorEditTextColor"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="argb"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setNegativeButton"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILandroid/content/DialogInterface$OnClickListener;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="textId"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="onClickListener"
+          type="android.content.DialogInterface.OnClickListener"
+          jni-type="Landroid/content/DialogInterface$OnClickListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setNegativeButton"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="text"
+          type="java.lang.CharSequence"
+          jni-type="Ljava/lang/CharSequence;" />
+        <parameter
+          name="onClickListener"
+          type="android.content.DialogInterface.OnClickListener"
+          jni-type="Landroid/content/DialogInterface$OnClickListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setOnColorChangedListener"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/OnColorChangedListener;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="onColorChangedListener"
+          type="com.flask.colorpicker.OnColorChangedListener"
+          jni-type="Lcom/flask/colorpicker/OnColorChangedListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setOnColorSelectedListener"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/OnColorSelectedListener;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="onColorSelectedListener"
+          type="com.flask.colorpicker.OnColorSelectedListener"
+          jni-type="Lcom/flask/colorpicker/OnColorSelectedListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPickerCount"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="pickerCount"
+          type="int"
+          jni-type="I" />
+        <exception
+          name="java/lang/IndexOutOfBoundsException"
+          type="java.lang.IndexOutOfBoundsException"
+          type-generic-aware="java.lang.IndexOutOfBoundsException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPositiveButton"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ILcom/flask/colorpicker/builder/ColorPickerClickListener;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="textId"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="onClickListener"
+          type="com.flask.colorpicker.builder.ColorPickerClickListener"
+          jni-type="Lcom/flask/colorpicker/builder/ColorPickerClickListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPositiveButton"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/CharSequence;Lcom/flask/colorpicker/builder/ColorPickerClickListener;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="text"
+          type="java.lang.CharSequence"
+          jni-type="Ljava/lang/CharSequence;" />
+        <parameter
+          name="onClickListener"
+          type="com.flask.colorpicker.builder.ColorPickerClickListener"
+          jni-type="Lcom/flask/colorpicker/builder/ColorPickerClickListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setTitle"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="titleId"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setTitle"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="title"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showAlphaSlider"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="showAlpha"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showBorder"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="showBorder"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showColorEdit"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="showEdit"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showColorPreview"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="showPreview"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showLightnessSlider"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="showLightness"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="wheelType"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="wheelType"
+          type="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+          jni-type="Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="with"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="with"
+        native="false"
+        return="com.flask.colorpicker.builder.ColorPickerDialogBuilder"
+        jni-return="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;I)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="theme"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+      enclosing-method-name="setPositiveButton"
+      enclosing-method-signature="(Ljava/lang/CharSequence;Lcom/flask/colorpicker/builder/ColorPickerClickListener;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorPickerDialogBuilder.1"
+      jni-signature="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder$1;"
+      source-file-name="ColorPickerDialogBuilder.java"
+      static="false"
+      visibility="">
+      <implements
+        name="android.content.DialogInterface.OnClickListener"
+        name-generic-aware="android.content.DialogInterface.OnClickListener"
+        jni-type="Landroid/content/DialogInterface$OnClickListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/DialogInterface;I)V">
+        <parameter
+          name="dialog"
+          type="android.content.DialogInterface"
+          jni-type="Landroid/content/DialogInterface;" />
+        <parameter
+          name="which"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+      enclosing-method-name="setPositiveButton"
+      enclosing-method-signature="(ILcom/flask/colorpicker/builder/ColorPickerClickListener;)Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorPickerDialogBuilder.2"
+      jni-signature="Lcom/flask/colorpicker/builder/ColorPickerDialogBuilder$2;"
+      source-file-name="ColorPickerDialogBuilder.java"
+      static="false"
+      visibility="">
+      <implements
+        name="android.content.DialogInterface.OnClickListener"
+        name-generic-aware="android.content.DialogInterface.OnClickListener"
+        jni-type="Landroid/content/DialogInterface$OnClickListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/DialogInterface;I)V">
+        <parameter
+          name="dialog"
+          type="android.content.DialogInterface"
+          jni-type="Landroid/content/DialogInterface;" />
+        <parameter
+          name="which"
+          type="int"
+          jni-type="I" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorWheelRendererBuilder"
+      jni-signature="Lcom/flask/colorpicker/builder/ColorWheelRendererBuilder;"
+      source-file-name="ColorWheelRendererBuilder.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorWheelRendererBuilder"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getRenderer"
+        native="false"
+        return="com.flask.colorpicker.renderer.ColorWheelRenderer"
+        jni-return="Lcom/flask/colorpicker/renderer/ColorWheelRenderer;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;)Lcom/flask/colorpicker/renderer/ColorWheelRenderer;">
+        <parameter
+          name="wheelType"
+          type="com.flask.colorpicker.ColorPickerView.WHEEL_TYPE"
+          jni-type="Lcom/flask/colorpicker/ColorPickerView$WHEEL_TYPE;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/flask/colorpicker/builder/ColorWheelRendererBuilder;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorWheelRendererBuilder.1"
+      jni-signature="Lcom/flask/colorpicker/builder/ColorWheelRendererBuilder$1;"
+      source-file-name="ColorWheelRendererBuilder.java"
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="PaintBuilder"
+      jni-signature="Lcom/flask/colorpicker/builder/PaintBuilder;"
+      source-file-name="PaintBuilder.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="PaintBuilder"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createAlphaPatternShader"
+        native="false"
+        return="android.graphics.Shader"
+        jni-return="Landroid/graphics/Shader;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Landroid/graphics/Shader;">
+        <parameter
+          name="size"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="newPaint"
+        native="false"
+        return="com.flask.colorpicker.builder.PaintBuilder.PaintHolder"
+        jni-return="Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/flask/colorpicker/builder/PaintBuilder;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="PaintBuilder.1"
+      jni-signature="Lcom/flask/colorpicker/builder/PaintBuilder$1;"
+      source-file-name="PaintBuilder.java"
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="PaintBuilder.PaintHolder"
+      jni-signature="Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;"
+      source-file-name="PaintBuilder.java"
+      static="true"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="antiAlias"
+        native="false"
+        return="com.flask.colorpicker.builder.PaintBuilder.PaintHolder"
+        jni-return="Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;">
+        <parameter
+          name="flag"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="build"
+        native="false"
+        return="android.graphics.Paint"
+        jni-return="Landroid/graphics/Paint;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Landroid/graphics/Paint;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="color"
+        native="false"
+        return="com.flask.colorpicker.builder.PaintBuilder.PaintHolder"
+        jni-return="Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="mode"
+        native="false"
+        return="com.flask.colorpicker.builder.PaintBuilder.PaintHolder"
+        jni-return="Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/PorterDuff$Mode;)Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;">
+        <parameter
+          name="mode"
+          type="android.graphics.PorterDuff.Mode"
+          jni-type="Landroid/graphics/PorterDuff$Mode;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="shader"
+        native="false"
+        return="com.flask.colorpicker.builder.PaintBuilder.PaintHolder"
+        jni-return="Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Shader;)Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;">
+        <parameter
+          name="shader"
+          type="android.graphics.Shader"
+          jni-type="Landroid/graphics/Shader;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="stroke"
+        native="false"
+        return="com.flask.colorpicker.builder.PaintBuilder.PaintHolder"
+        jni-return="Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;">
+        <parameter
+          name="width"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="style"
+        native="false"
+        return="com.flask.colorpicker.builder.PaintBuilder.PaintHolder"
+        jni-return="Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Paint$Style;)Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;">
+        <parameter
+          name="style"
+          type="android.graphics.Paint.Style"
+          jni-type="Landroid/graphics/Paint$Style;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="xPerMode"
+        native="false"
+        return="com.flask.colorpicker.builder.PaintBuilder.PaintHolder"
+        jni-return="Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/PorterDuff$Mode;)Lcom/flask/colorpicker/builder/PaintBuilder$PaintHolder;">
+        <parameter
+          name="mode"
+          type="android.graphics.PorterDuff.Mode"
+          jni-type="Landroid/graphics/PorterDuff$Mode;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.flask.colorpicker.renderer"
+    jni-name="com/flask/colorpicker/renderer">
+    <class
+      abstract="true"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AbsColorWheelRenderer"
+      jni-signature="Lcom/flask/colorpicker/renderer/AbsColorWheelRenderer;"
+      source-file-name="AbsColorWheelRenderer.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.flask.colorpicker.renderer.ColorWheelRenderer"
+        name-generic-aware="com.flask.colorpicker.renderer.ColorWheelRenderer"
+        jni-type="Lcom/flask/colorpicker/renderer/ColorWheelRenderer;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AbsColorWheelRenderer"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="calcTotalCount"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(FF)I">
+        <parameter
+          name="radius"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="size"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAlphaValueAsInt"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getColorCircleList"
+        native="false"
+        return="java.util.List&lt;com.flask.colorpicker.ColorCircle&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/flask/colorpicker/ColorCircle;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getRenderOption"
+        native="false"
+        return="com.flask.colorpicker.renderer.ColorWheelRenderOption"
+        jni-return="Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initWith"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;)V">
+        <parameter
+          name="colorWheelRenderOption"
+          type="com.flask.colorpicker.renderer.ColorWheelRenderOption"
+          jni-type="Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="colorCircleList"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.util.List"
+        type-generic-aware="java.util.List&lt;com.flask.colorpicker.ColorCircle&gt;"
+        jni-signature="Ljava/util/List;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="colorWheelRenderOption"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="com.flask.colorpicker.renderer.ColorWheelRenderOption"
+        type-generic-aware="com.flask.colorpicker.renderer.ColorWheelRenderOption"
+        jni-signature="Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;"
+        visibility="protected"
+        volatile="false" />
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ColorWheelRenderer"
+      jni-signature="Lcom/flask/colorpicker/renderer/ColorWheelRenderer;"
+      source-file-name="ColorWheelRenderer.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="draw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getColorCircleList"
+        native="false"
+        return="java.util.List&lt;com.flask.colorpicker.ColorCircle&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/flask/colorpicker/ColorCircle;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getRenderOption"
+        native="false"
+        return="com.flask.colorpicker.renderer.ColorWheelRenderOption"
+        jni-return="Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="initWith"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;)V">
+        <parameter
+          name="p0"
+          type="com.flask.colorpicker.renderer.ColorWheelRenderOption"
+          jni-type="Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="GAP_PERCENTAGE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="float"
+        type-generic-aware="float"
+        jni-signature="F"
+        value="0.025"
+        visibility="public"
+        volatile="false" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ColorWheelRenderOption"
+      jni-signature="Lcom/flask/colorpicker/renderer/ColorWheelRenderOption;"
+      source-file-name="ColorWheelRenderOption.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ColorWheelRenderOption"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="alpha"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="float"
+        type-generic-aware="float"
+        jni-signature="F"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="cSize"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="float"
+        type-generic-aware="float"
+        jni-signature="F"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="density"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="lightness"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="float"
+        type-generic-aware="float"
+        jni-signature="F"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="maxRadius"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="float"
+        type-generic-aware="float"
+        jni-signature="F"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="strokeWidth"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="float"
+        type-generic-aware="float"
+        jni-signature="F"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="targetCanvas"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="android.graphics.Canvas"
+        type-generic-aware="android.graphics.Canvas"
+        jni-signature="Landroid/graphics/Canvas;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/flask/colorpicker/renderer/AbsColorWheelRenderer;"
+      extends="com.flask.colorpicker.renderer.AbsColorWheelRenderer"
+      extends-generic-aware="com.flask.colorpicker.renderer.AbsColorWheelRenderer"
+      final="false"
+      name="FlowerColorWheelRenderer"
+      jni-signature="Lcom/flask/colorpicker/renderer/FlowerColorWheelRenderer;"
+      source-file-name="FlowerColorWheelRenderer.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="FlowerColorWheelRenderer"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="draw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/flask/colorpicker/renderer/AbsColorWheelRenderer;"
+      extends="com.flask.colorpicker.renderer.AbsColorWheelRenderer"
+      extends-generic-aware="com.flask.colorpicker.renderer.AbsColorWheelRenderer"
+      final="false"
+      name="SimpleColorWheelRenderer"
+      jni-signature="Lcom/flask/colorpicker/renderer/SimpleColorWheelRenderer;"
+      source-file-name="SimpleColorWheelRenderer.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SimpleColorWheelRenderer"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="draw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+  </package>
+  <package
+    name="com.flask.colorpicker.slider"
+    jni-name="com/flask/colorpicker/slider">
+    <class
+      abstract="true"
+      deprecated="not deprecated"
+      jni-extends="Landroid/view/View;"
+      extends="android.view.View"
+      extends-generic-aware="android.view.View"
+      final="false"
+      name="AbsCustomSlider"
+      jni-signature="Lcom/flask/colorpicker/slider/AbsCustomSlider;"
+      source-file-name="AbsCustomSlider.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AbsCustomSlider"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AbsCustomSlider"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AbsCustomSlider"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="defStyleAttr"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createBitmaps"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="drawBar"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;)V">
+        <parameter
+          name="p0"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="drawHandle"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;FF)V">
+        <parameter
+          name="p0"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+        <parameter
+          name="p1"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="p2"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getDimension"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)I">
+        <parameter
+          name="id"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDraw"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;)V">
+        <parameter
+          name="canvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onMeasure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(II)V">
+        <parameter
+          name="widthMeasureSpec"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="heightMeasureSpec"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSizeChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IIII)V">
+        <parameter
+          name="w"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="h"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="oldw"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="oldh"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTouchEvent"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/MotionEvent;)Z">
+        <parameter
+          name="event"
+          type="android.view.MotionEvent"
+          jni-type="Landroid/view/MotionEvent;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onValueChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="p0"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setOnValueChangedListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/slider/OnValueChangedListener;)V">
+        <parameter
+          name="onValueChangedListener"
+          type="com.flask.colorpicker.slider.OnValueChangedListener"
+          jni-type="Lcom/flask/colorpicker/slider/OnValueChangedListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setShowBorder"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="showBorder"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="updateBar"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="bar"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="android.graphics.Bitmap"
+        type-generic-aware="android.graphics.Bitmap"
+        jni-signature="Landroid/graphics/Bitmap;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="barCanvas"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="android.graphics.Canvas"
+        type-generic-aware="android.graphics.Canvas"
+        jni-signature="Landroid/graphics/Canvas;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="barHeight"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="barOffsetX"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="bitmap"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="android.graphics.Bitmap"
+        type-generic-aware="android.graphics.Bitmap"
+        jni-signature="Landroid/graphics/Bitmap;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="bitmapCanvas"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="android.graphics.Canvas"
+        type-generic-aware="android.graphics.Canvas"
+        jni-signature="Landroid/graphics/Canvas;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="handleRadius"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="onValueChangedListener"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="com.flask.colorpicker.slider.OnValueChangedListener"
+        type-generic-aware="com.flask.colorpicker.slider.OnValueChangedListener"
+        jni-signature="Lcom/flask/colorpicker/slider/OnValueChangedListener;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="showBorder"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="value"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="float"
+        type-generic-aware="float"
+        jni-signature="F"
+        visibility="protected"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/flask/colorpicker/slider/AbsCustomSlider;"
+      extends="com.flask.colorpicker.slider.AbsCustomSlider"
+      extends-generic-aware="com.flask.colorpicker.slider.AbsCustomSlider"
+      final="false"
+      name="AlphaSlider"
+      jni-signature="Lcom/flask/colorpicker/slider/AlphaSlider;"
+      source-file-name="AlphaSlider.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AlphaSlider"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AlphaSlider"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="AlphaSlider"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="defStyleAttr"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createBitmaps"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="drawBar"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;)V">
+        <parameter
+          name="barCanvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="drawHandle"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;FF)V">
+        <parameter
+          name="canvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+        <parameter
+          name="x"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="y"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onValueChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="value"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorPicker"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/ColorPickerView;)V">
+        <parameter
+          name="colorPicker"
+          type="com.flask.colorpicker.ColorPickerView"
+          jni-type="Lcom/flask/colorpicker/ColorPickerView;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="color"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/flask/colorpicker/slider/AbsCustomSlider;"
+      extends="com.flask.colorpicker.slider.AbsCustomSlider"
+      extends-generic-aware="com.flask.colorpicker.slider.AbsCustomSlider"
+      final="false"
+      name="LightnessSlider"
+      jni-signature="Lcom/flask/colorpicker/slider/LightnessSlider;"
+      source-file-name="LightnessSlider.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="LightnessSlider"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="LightnessSlider"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="LightnessSlider"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="defStyleAttr"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="drawBar"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;)V">
+        <parameter
+          name="barCanvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="drawHandle"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/graphics/Canvas;FF)V">
+        <parameter
+          name="canvas"
+          type="android.graphics.Canvas"
+          jni-type="Landroid/graphics/Canvas;" />
+        <parameter
+          name="x"
+          type="float"
+          jni-type="F" />
+        <parameter
+          name="y"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onValueChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="value"
+          type="float"
+          jni-type="F" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="color"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setColorPicker"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/flask/colorpicker/ColorPickerView;)V">
+        <parameter
+          name="colorPicker"
+          type="com.flask.colorpicker.ColorPickerView"
+          jni-type="Lcom/flask/colorpicker/ColorPickerView;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="OnValueChangedListener"
+      jni-signature="Lcom/flask/colorpicker/slider/OnValueChangedListener;"
+      source-file-name="OnValueChangedListener.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onValueChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(F)V">
+        <parameter
+          name="p0"
+          type="float"
+          jni-type="F" />
+      </method>
+    </interface>
+  </package>
+</api>

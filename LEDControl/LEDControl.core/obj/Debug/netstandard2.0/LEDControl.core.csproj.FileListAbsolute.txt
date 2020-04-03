@@ -1,0 +1,13 @@
+E:\LEDControl\LEDControl\LEDControl.core\bin\Debug\netstandard2.0\LEDControl.core.deps.json
+E:\LEDControl\LEDControl\LEDControl.core\bin\Debug\netstandard2.0\LEDControl.core.dll
+E:\LEDControl\LEDControl\LEDControl.core\bin\Debug\netstandard2.0\LEDControl.core.pdb
+E:\LEDControl\LEDControl\LEDControl.core\bin\Debug\netstandard2.0\Mono.Android.dll
+E:\LEDControl\LEDControl\LEDControl.core\bin\Debug\netstandard2.0\Mono.Android.pdb
+E:\LEDControl\LEDControl\LEDControl.core\bin\Debug\netstandard2.0\Mono.Android.xml
+E:\LEDControl\LEDControl\LEDControl.core\obj\Debug\netstandard2.0\LEDControl.core.csproj.CoreCompileInputs.cache
+E:\LEDControl\LEDControl\LEDControl.core\obj\Debug\netstandard2.0\LEDControl.core.AssemblyInfoInputs.cache
+E:\LEDControl\LEDControl\LEDControl.core\obj\Debug\netstandard2.0\LEDControl.core.AssemblyInfo.cs
+E:\LEDControl\LEDControl\LEDControl.core\obj\Debug\netstandard2.0\LEDControl.core.csproj.CopyComplete
+E:\LEDControl\LEDControl\LEDControl.core\obj\Debug\netstandard2.0\LEDControl.core.dll
+E:\LEDControl\LEDControl\LEDControl.core\obj\Debug\netstandard2.0\LEDControl.core.pdb
+E:\LEDControl\LEDControl\LEDControl.core\obj\Debug\netstandard2.0\LEDControl.core.csprojAssemblyReference.cache

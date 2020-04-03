@@ -1,0 +1,1 @@
+<ImageView android:id="@+id/color_indicator" android:layout_width="32dp" android:layout_height="32dp" tools:ignore="ContentDescription" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" />

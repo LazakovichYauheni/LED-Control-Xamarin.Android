@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KzXE83DHWiX/cJD26lxHTZSchgv9akNUeZR6Ap1nx//ckMtVEzoWABVV/1VmOHsyQceF1+Yt6Jgzy142IM12sg==",
+  "success": true,
+  "projectFilePath": "E:\\LEDControl\\LEDControl\\LEDControl.core\\LEDControl.core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Евгений\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
